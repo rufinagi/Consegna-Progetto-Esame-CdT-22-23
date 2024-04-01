@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-model href='tei-lite.rng' ?>
+<!DOCTYPE TEI SYSTEM "schema_dtd.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schema.xsd">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appunti di Amalia Artom sul diario del figlio Emanuele Artom</title>
+                <author>Amalia Artom</author>
+                <author>Emanuele Artom</author>
+                <respStmt>
+                    <resp>Curatore della pubblicazione digitale</resp>
+                    <name>Guri Schwarz</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Versione digitale curata da Guri Schwarz, pubblicata nel 2008</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>CDEC - Centro di Documentazione Ebraica Contemporanea</publisher>
+                <pubPlace>Milano</pubPlace>
+                <date>2008</date>
+                <availability>
+                    <p>Il materiale è disponibile presso la biblioteca digitale del CDEC.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Raccolta degli scritti autografi di Emanuele Artom redatti tra il 1943 e il 1944, accompagnati dalla lettera originale di Amalia Artom. La collezione ha un grande valore storico e testimonia sia la vita culturale torinese tra il 1940 e il 1943 sia l'esperienza partigiana di Emanuele Artom da novembre 1943 a febbraio 1944.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+    <surface>
+        <graphic url="p_16.jpeg" width="752px" height="1024px"/>
+        <zone xml:id="p16" points="71,95 684,83 716,947 68,947"/>
+        <zone xml:id="date" points="472,108 557,107 558,131 475,133"/>
+        <zone xml:id="t16" points="70,936 707,936 695,132 75,132"/>
+    </surface>
+    <surface>
+        <graphic url="p_17.jpeg" width="752px" height="1024px"/>
+        <zone xml:id="p17" points="77,104 720,102 712,944 73,948"/>
+    </surface>
+    <surface>
+        <graphic url="p_18.jpeg" width="756px" height="1024px"/>
+        <zone xml:id="p18" points="61,51 709,53 700,940 69,939"/>
+    </surface>
+    </facsimile>
+
+    <text>
+        <body>
+        	<pb n="16" facs="#p16"/>
+            <opener>
+            	<date facs="#date" when="1943-11-28">28 nov</date>
+            </opener>
+            <div>
+            	<p facs="#t16">
+            	Ieri mattina ero molto malcontento. Dovetti aspettare <lb/> per <del rend= "overstrike">poi</del> due ore in una camera fredda dai <persName><surname>Bali<lb/>strieri</surname></persName>; mentre nella stanza vicina c'era consiglio <lb/>. Quando i comandanti e gli ufficiali uscirono <lb/> dichiarai che se continuavano a farmi perdere <lb/> del tempo me ne sarei andato a <placeName>Torino</placeName> per la<lb/>vorare in città; <del rend= "overstrike">Piet</del> dove ero già stato <unclear>invi<lb/>tato</unclear>.<persName>Pietro</persName><del rend= "overstrike">ribatte</del> disse: <said direct="true">  ma la vita è più <lb/> pericolosa</said> e io gli risposi molto duramente <lb/> che <said direct="false"> non avevo mai <gap reason ="illegible"/><del rend="overstrike"><gap reason="illegible"/></del> di essere <lb/> mandato in un luogo sicuro</said>, ma pretendevo <lb/> che non mi si lasciano a perdere le settimane. <lb/> Mentre parlavo così, sotto le arcate della <lb/> Chiesa di <persName>St. Antonio</persName> avevo quasi voglia <lb/> di piangere. Non so se mi considero da <lb/> più di quello che sono, ma mi pare che <lb/> il mio tempo valga qualche cosa.<unclear>Così</unclear> <persName>Antonio</persName> <lb/> mi invitò ad una riunione pomeridiana <lb/> in cui si discusse la mia posizione e fui nomi<lb/>nato aiutante maggiore, grado dell’<gap reason ="illegible"/> <lb/> che non so bene che cosa significhi.
+                </p>
+
+                <pb n="17" facs="#p17"/>
+
+            	<p>
+            	<del rend= "overstrike">dopo</del> Avrò l'ufficio dei collegamenti con tre <lb/> o quattro persone a mia <del rend="overstrike"><gap reason="illegible"/></del> disposizione e <unclear>un'altro</unclear> <lb/> <del rend="overstrike"><gap reason="illegible"/></del>una specie di ufficio stampa. Ieri <lb/> il magg. <unclear><persName><surname>Barra</surname></persName></unclear> compilò una specie di rego<lb/>lamento di disciplina, che <del rend= "overstrike">dovreb</del> vuole <lb/> proporre per tutto il <placeName>Piemonte</placeName> e me lo consegno <lb/> perché gli lo mettessi a posto <del rend= "overstrike">stilisticamnete</del> <lb/> nella forma. Stavo per dire:<said direct="true">Sono abituato <lb/> a correggere i componimenti</said>, ma poi mi trat<lb/>tenni. <del rend= "overstrike">Lo ricopiai</del><del rend= "overstrike"><gap reason="illegible"/></del>Uno dei punti più <lb/> importanti è che si sancisce che nel futuro stato <lb/> <del rend= "overstrike">esercito</del> repubblicano avranno i pieni diretti <lb/> solo coloro che hanno partecipato alla guerra <lb/> di liberazione. <unclear>Fare</unclear> che ora distribuiranno <lb/> una somma fina uquale per tutti: soldai <lb/> e ufficiali: 100 lire mensili. La mia sistema<lb/>zione oggi sarebbe questa. Cenare, dormire e <lb/> fare colazione in infermeria, passare la <lb/> giornata a lavorare a <placeName>Barge</placeName>. Ieri sera <lb/> perciò andai in infermeria. Ci sono tra: <lb/> un certo <persName>Antonio</persName>, con una fama un po’ iro<lb/>nica ed equivoca, che è già stato in prigione <lb/>
+                </p>
+
+                <pb n="18" facs="#p18"/>
+    
+                <p>
+            	per truffa. <del rend="overstrike"><gap reason="illegible"/></del> La popolazione <add place="above">che lo conosce perché è del luogo</add> è malcontenta <lb/> della mia presenza, ma lui dichiara di <lb/> volersi redimere. Secondo me non si può re<lb/>spingerlo, ma bisogna mandarlo in una <lb/> <unclear>favola</unclear> lontana. Poi c'è un certo <persName>Leone</persName>,che <lb/> ha fatto, dice,<said direct="false"> 4 anni di medicina</said> e per <lb/> questo è stato trasferito in infermeria. Sembra <lb/> ignorantissimo e parla sempre in dialetto <lb/> veneto, come se non sapesse <unclear>quasi</unclear> l'italiano. <lb/> La persona più importante è una certa <lb/> <persName xml:id="Gina">Gina</persName>, di cui credo di aver già parlato, <lb/> di <num value="thirty two">32</num> anni, moglie di Luigi vice commis<lb/>sario politico, che, mi pare, gode di poche <lb/> simpatie per misoginia o per anticommunismo. <lb/> <gap reason="illegible"/> <reference target="Gina">G</reference> è simpatica e anche il mio giudizio <lb/> è positivo. Anzitutto è molto affabile e dolce <lb/> nei modi con tutti e si mostra una vera <lb/> <dq>compagna</dq>. Il secondo luogo <del rend= "overstrike">è una donna</del> <lb/> <unclear>che</unclear> ha pensato e letto, anche se ora si è <lb/> cristallizzata nelle mie idee e ha <unclear>la</unclear> <lb/> <del rend= "overstrike">tono</del> mentalità fanatica <add place="above">come delle</add> donne <lb/> che si occupano di politica. <gap reason="illegible"/> <lb/>
+                </p>
+
+                <pb/>
+
+
+        </div>
+    </body>
+    </text>
+
+</TEI>

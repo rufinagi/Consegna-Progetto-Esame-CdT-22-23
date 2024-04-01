@@ -1,0 +1,69 @@
+<!ELEMENT TEI (teiHeader, facsimile, text)>
+<!ATTLIST TEI xmlns CDATA #FIXED "http://www.tei-c.org/ns/1.0">
+
+<!ELEMENT teiHeader (fileDesc, profileDesc)>
+<!ELEMENT fileDesc (titleStmt, editionStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, author+, respStmt)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT editionStmt (edition)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT publicationStmt (publisher, pubPlace, date, availability)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date facs CDATA #IMPLIED when CDATA #IMPLIED>
+<!ELEMENT availability (p)>
+<!ELEMENT sourceDesc (p)>
+<!ELEMENT profileDesc (langUsage)>
+<!ELEMENT langUsage (language)>
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language ident CDATA #REQUIRED>
+
+<!ELEMENT facsimile (surface+)>
+<!ELEMENT surface (graphic, zone*)>
+<!ELEMENT graphic EMPTY>
+<!ATTLIST graphic url CDATA #REQUIRED width CDATA #REQUIRED height CDATA #REQUIRED>
+<!ELEMENT zone EMPTY>
+<!ATTLIST zone xml:id ID #REQUIRED points CDATA #REQUIRED>
+
+<!ELEMENT text (body)>
+<!ELEMENT body (pb*, opener?, div+)>
+<!ELEMENT pb EMPTY>
+<!ATTLIST pb n CDATA #IMPLIED facs CDATA #IMPLIED>
+
+<!ELEMENT opener (date)>
+<!ELEMENT div ((p | pb)*)>
+
+<!ELEMENT p (#PCDATA | lb | del | persName | placeName | unclear | said | gap | add | reference | dq | num)*>
+<!ATTLIST p facs CDATA #IMPLIED>
+
+<!ELEMENT lb EMPTY>
+
+<!ELEMENT del (#PCDATA | gap)*>
+<!ATTLIST del rend CDATA #REQUIRED>
+
+<!ELEMENT persName (#PCDATA | surname | lb)* >
+<!ELEMENT surname (#PCDATA | lb)*>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT unclear (#PCDATA | lb | persName)*>
+
+<!ELEMENT said (#PCDATA | lb | gap | del)*>
+<!ATTLIST said direct (true | false) "false">
+<!ELEMENT gap EMPTY>
+<!ATTLIST gap reason CDATA #REQUIRED>
+
+<!ELEMENT add (#PCDATA)>
+<!ATTLIST add place CDATA #REQUIRED>
+
+<!ELEMENT reference (#PCDATA)>
+<!ATTLIST reference target IDREF #REQUIRED>
+
+<!ELEMENT dq (#PCDATA)>
+
+<!ELEMENT num (#PCDATA)>
+<!ATTLIST num value CDATA #REQUIRED>
+<!ATTLIST persName xml:id ID #IMPLIED>
